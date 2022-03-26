@@ -1,0 +1,292 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://thysvdw.github.io/</id>
+  <title>Thys</title>
+  <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
+  <updated>2022-03-26T15:43:17+02:00</updated>
+  <author>
+    <name>Thys</name>
+    <uri>https://thysvdw.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://thysvdw.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://thysvdw.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 Thys </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Getting Started with Deneb</title>
+    <link href="https://thysvdw.github.io/posts/getting-started-with-deneb/" rel="alternate" type="text/html" title="Getting Started with Deneb" />
+    <published>2022-03-24T00:00:00+02:00</published>
+  
+    <updated>2022-03-24T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/getting-started-with-deneb/</id>
+    <content src="https://thysvdw.github.io/posts/getting-started-with-deneb/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+    <category term="Deneb" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What is Deneb?
+
+As quoted on Deneb’s site, Deneb is … a certified custom visual for Microsoft Power BI….
+
+It’s developed by Daniel Marsh-Patrick. The custom visual is build on Vega and Vega-lite  visual language.
+
+Please visit the Deneb website. Here you will find more information on how to get started with this custom visual.
+
+Why do I use Deneb?
+
+Deneb is a lot of fun to work with. I love to ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the bar chart.</title>
+    <link href="https://thysvdw.github.io/posts/2-bar-chart/" rel="alternate" type="text/html" title="The one with the bar chart." />
+    <published>2022-03-22T00:00:00+02:00</published>
+  
+    <updated>2022-03-22T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/2-bar-chart/</id>
+    <content src="https://thysvdw.github.io/posts/2-bar-chart/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+
+
+
+The chart was posted as part of the Workout Wednesday PowerBI  challenge.
+I am only going to provide the specification and configuration for the Cost Group bar chart. The others is similar in their approach.
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+Actual CM
+Actual CM = 
+VAR __previousMonth =
+CALCULATE (
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the card visual.</title>
+    <link href="https://thysvdw.github.io/posts/1-card-visual/" rel="alternate" type="text/html" title="The one with the card visual." />
+    <published>2022-03-22T00:00:00+02:00</published>
+  
+    <updated>2022-03-22T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/1-card-visual/</id>
+    <content src="https://thysvdw.github.io/posts/1-card-visual/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+
+
+
+The chart was posted as part of the Workout Wednesday PowerBI  challenge.
+I am only going to provide the specification and configuration for the Actual Spend card visual. The others is similar in their approach.
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+Actual CM
+Actual CM = 
+VAR __previousMonth =
+CALCULAT...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the matrix.</title>
+    <link href="https://thysvdw.github.io/posts/matrix/" rel="alternate" type="text/html" title="The one with the matrix." />
+    <published>2022-03-19T00:00:00+02:00</published>
+  
+    <updated>2022-03-19T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/matrix/</id>
+    <content src="https://thysvdw.github.io/posts/matrix/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+
+
+
+The chart was posted as part of the Tableau Workout Wednesday 2018  challenge.
+
+  I was not able to add the GRAND TOTAL column to the matrix, maybe someone can provide a solution to that.
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above. Added a calculated table
+
+Date
+Date = 
+VAR __StartYear = YEAR ( MIN ( Orders[Order Date] ) )
+VAR __EndYear = YEAR ( MA...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the dumbbell chart.</title>
+    <link href="https://thysvdw.github.io/posts/dumbbell-chart-copy/" rel="alternate" type="text/html" title="The one with the dumbbell chart." />
+    <published>2022-03-14T00:00:00+02:00</published>
+  
+    <updated>2022-03-14T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/dumbbell-chart-copy/</id>
+    <content src="https://thysvdw.github.io/posts/dumbbell-chart-copy/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+
+
+
+The chart was posted as part of the Tableau Workout Wednesday 2018  challenge.
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+Sales
+Sales = 
+SUM ( 'Orders'[Sales] )
+
+
+
+
+&amp;nbsp;&amp;nbsp;Fields used
+
+
+  Category
+  Sub-Category
+  Region
+  Sales
+
+
+
+
+&amp;nbsp;&amp;nbsp;Specification
+
+{
+  "data": {"name": "dataset"},
+  "spacing...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
