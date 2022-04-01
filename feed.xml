@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-03-31T18:21:09+02:00</updated>
+  <updated>2022-04-01T16:27:03+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -20,11 +20,60 @@
 
   
   <entry>
+    <title>The one with the bullet chart.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/" rel="alternate" type="text/html" title="The one with the bullet chart." />
+    <published>2022-04-01T00:00:00+02:00</published>
+  
+    <updated>2022-04-01T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+This chart was part of Week 13 Workout Wednesday  challenge. For more information on the bullet chart, please see the Data Visualisation Catalogue for more information on the usage of the chart type.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+
+  Only one additional field created in Power Query. The MaxValue...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Getting Started with Deneb</title>
     <link href="https://thysvdw.github.io/posts/getting-started-with-deneb/" rel="alternate" type="text/html" title="Getting Started with Deneb" />
     <published>2022-03-24T00:00:00+02:00</published>
   
-    <updated>2022-03-24T00:00:00+02:00</updated>
+    <updated>2022-03-31T18:21:28+02:00</updated>
   
     <id>https://thysvdw.github.io/posts/getting-started-with-deneb/</id>
     <content src="https://thysvdw.github.io/posts/getting-started-with-deneb/" />
@@ -212,76 +261,6 @@ Date
 Date = 
 VAR __StartYear = YEAR ( MIN ( Orders[Order Date] ) )
 VAR __EndYear = YEAR ( MA...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the dumbbell chart.</title>
-    <link href="https://thysvdw.github.io/posts/dumbbell-chart-copy/" rel="alternate" type="text/html" title="The one with the dumbbell chart." />
-    <published>2022-03-14T00:00:00+02:00</published>
-  
-    <updated>2022-03-14T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/dumbbell-chart-copy/</id>
-    <content src="https://thysvdw.github.io/posts/dumbbell-chart-copy/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-
-
-
-The chart was posted as part of the Tableau Workout Wednesday 2018  challenge.
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the Workout Wednesday link above.
-
-
-
-&amp;nbsp;&amp;nbsp;Additional fields created
-
-Sales
-Sales = 
-SUM ( 'Orders'[Sales] )
-
-
-
-
-&amp;nbsp;&amp;nbsp;Fields used
-
-
-  Category
-  Sub-Category
-  Region
-  Sales
-
-
-
-
-&amp;nbsp;&amp;nbsp;Specification
-
-{
-  "data": {"name": "dataset"},
-  "spacing...
     </summary>
   
 
