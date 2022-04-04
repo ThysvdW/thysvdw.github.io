@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-04-01T16:27:03+02:00</updated>
+  <updated>2022-04-04T18:03:31+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -17,6 +17,48 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The one with the timeline chart .</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-timeline/" rel="alternate" type="text/html" title="The one with the timeline chart ." />
+    <published>2022-04-04T00:00:00+02:00</published>
+  
+    <updated>2022-04-04T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-timeline/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-timeline/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+This chart was part of my submission for the Week 13 Workout Wednesday  challenge. I did not think it necessary to add a post for this, but I was requested to add it - so here goes.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset is part of the presentation on the Workout Wednesday challenge. The data was entered into a table using Power Query enter data. The table had two columns, the description and ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -73,7 +115,7 @@ The dataset can be found on the Workout Wednesday link above.
     <link href="https://thysvdw.github.io/posts/getting-started-with-deneb/" rel="alternate" type="text/html" title="Getting Started with Deneb" />
     <published>2022-03-24T00:00:00+02:00</published>
   
-    <updated>2022-03-31T18:21:28+02:00</updated>
+    <updated>2022-04-01T16:28:12+02:00</updated>
   
     <id>https://thysvdw.github.io/posts/getting-started-with-deneb/</id>
     <content src="https://thysvdw.github.io/posts/getting-started-with-deneb/" />
@@ -211,56 +253,6 @@ Actual CM
 Actual CM = 
 VAR __previousMonth =
 CALCULAT...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the matrix.</title>
-    <link href="https://thysvdw.github.io/posts/matrix/" rel="alternate" type="text/html" title="The one with the matrix." />
-    <published>2022-03-19T00:00:00+02:00</published>
-  
-    <updated>2022-03-19T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/matrix/</id>
-    <content src="https://thysvdw.github.io/posts/matrix/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-
-
-
-The chart was posted as part of the Tableau Workout Wednesday 2018  challenge.
-
-  I was not able to add the GRAND TOTAL column to the matrix, maybe someone can provide a solution to that.
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the Workout Wednesday link above. Added a calculated table
-
-Date
-Date = 
-VAR __StartYear = YEAR ( MIN ( Orders[Order Date] ) )
-VAR __EndYear = YEAR ( MA...
     </summary>
   
 
