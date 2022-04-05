@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-04-04T18:14:37+02:00</updated>
+  <updated>2022-04-05T21:54:00+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -17,6 +17,74 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The one with the boxplot</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-boxplot/" rel="alternate" type="text/html" title="The one with the boxplot" />
+    <published>2022-04-05T00:00:00+02:00</published>
+  
+    <updated>2022-04-05T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-boxplot/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-boxplot/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+This chart was a Tableau Workout Wednesday challenge. Week 12 Tableau Workout Wednesday
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset is part of the presentation on the Workout Wednesday challenge above.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+Jitter
+Jitter = RANDBETWEEN(2,18)
+
+
+
+
+&amp;nbsp;&amp;nbsp;Fields used
+
+
+  Playoffs
+  Team
+  Name
+  Age
+  Jitter
+
+
+
+
+&amp;nbsp;&amp;nbsp;Specification
+
+The specification in a...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -201,58 +269,6 @@ Actual CM =
 VAR __previousMonth =
 CALCULATE (
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the card visual.</title>
-    <link href="https://thysvdw.github.io/posts/1-card-visual/" rel="alternate" type="text/html" title="The one with the card visual." />
-    <published>2022-03-22T00:00:00+02:00</published>
-  
-    <updated>2022-03-22T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/1-card-visual/</id>
-    <content src="https://thysvdw.github.io/posts/1-card-visual/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-
-
-
-The chart was posted as part of the Workout Wednesday PowerBI  challenge.
-I am only going to provide the specification and configuration for the Actual Spend card visual. The others is similar in their approach.
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the Workout Wednesday link above.
-
-
-
-&amp;nbsp;&amp;nbsp;Additional fields created
-
-Actual CM
-Actual CM = 
-VAR __previousMonth =
-CALCULAT...
     </summary>
   
 
