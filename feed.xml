@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
-  <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-04-05T21:54:00+02:00</updated>
+  <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
+  <updated>2022-04-15T14:49:26+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -17,6 +17,79 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The one with the sparklines.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-sparkline/" rel="alternate" type="text/html" title="The one with the sparklines." />
+    <published>2022-04-15T00:00:00+02:00</published>
+  
+    <updated>2022-04-15T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-sparkline/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-sparkline/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+This chart was part of the Week 14 Workout Wednesday  challenge.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above.
+
+
+
+&amp;nbsp;&amp;nbsp;Fields used
+
+
+  Sub-Category
+  Monthend_Date
+  Sales
+  Profit
+
+
+
+
+&amp;nbsp;&amp;nbsp;Specification
+
+The specification in a nutshell:
+
+facet 
+  * row
+spec
+  * layer
+    * text mark
+    * text mark
+    * area mark
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Exter...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -92,7 +165,7 @@ The specification in a...
     <link href="https://thysvdw.github.io/posts/the-one-with-the-timeline/" rel="alternate" type="text/html" title="The one with the timeline" />
     <published>2022-04-04T00:00:00+02:00</published>
   
-    <updated>2022-04-04T00:00:00+02:00</updated>
+    <updated>2022-04-15T14:49:08+02:00</updated>
   
     <id>https://thysvdw.github.io/posts/the-one-with-the-timeline/</id>
     <content src="https://thysvdw.github.io/posts/the-one-with-the-timeline/" />
@@ -216,59 +289,6 @@ Please visit the Deneb website. Here you will find more information on how to ge
 Why do I use Deneb?
 
 Deneb is a lot of fun to work with. I love to ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the bar chart.</title>
-    <link href="https://thysvdw.github.io/posts/2-bar-chart/" rel="alternate" type="text/html" title="The one with the bar chart." />
-    <published>2022-03-22T00:00:00+02:00</published>
-  
-    <updated>2022-03-22T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/2-bar-chart/</id>
-    <content src="https://thysvdw.github.io/posts/2-bar-chart/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-
-
-
-The chart was posted as part of the Workout Wednesday PowerBI  challenge.
-I am only going to provide the specification and configuration for the Cost Group bar chart. The others is similar in their approach.
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the Workout Wednesday link above.
-
-
-
-&amp;nbsp;&amp;nbsp;Additional fields created
-
-Actual CM
-Actual CM = 
-VAR __previousMonth =
-CALCULATE (
-...
     </summary>
   
 

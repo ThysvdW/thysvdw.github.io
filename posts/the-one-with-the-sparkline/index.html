@@ -42,27 +42,27 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="The one with the bullet chart." />
+<meta property="og:title" content="The one with the sparklines." />
 <meta name="author" content="Thys" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="The bullet chart is typically used to display performance data." />
-<meta property="og:description" content="The bullet chart is typically used to display performance data." />
-<link rel="canonical" href="https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/" />
-<meta property="og:url" content="https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/" />
+<meta name="description" content="Sparklines with a shared / independent y-axis." />
+<meta property="og:description" content="Sparklines with a shared / independent y-axis." />
+<link rel="canonical" href="https://thysvdw.github.io/posts/the-one-with-the-sparkline/" />
+<meta property="og:url" content="https://thysvdw.github.io/posts/the-one-with-the-sparkline/" />
 <meta property="og:site_name" content="Thys" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-04-01T00:00:00+02:00" />
+<meta property="article:published_time" content="2022-04-15T00:00:00+02:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="The one with the bullet chart." />
+<meta property="twitter:title" content="The one with the sparklines." />
 <meta name="twitter:site" content="@thysvdw" />
 <meta name="twitter:creator" content="@thysvdw" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Thys","url":"https://github.com/thysvdw/"},"dateModified":"2022-04-01T00:00:00+02:00","datePublished":"2022-04-01T00:00:00+02:00","description":"The bullet chart is typically used to display performance data.","headline":"The one with the bullet chart.","mainEntityOfPage":{"@type":"WebPage","@id":"https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/"},"url":"https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Thys","url":"https://github.com/thysvdw/"},"dateModified":"2022-04-15T00:00:00+02:00","datePublished":"2022-04-15T00:00:00+02:00","description":"Sparklines with a shared / independent y-axis.","headline":"The one with the sparklines.","mainEntityOfPage":{"@type":"WebPage","@id":"https://thysvdw.github.io/posts/the-one-with-the-sparkline/"},"url":"https://thysvdw.github.io/posts/the-one-with-the-sparkline/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>The one with the bullet chart. |  Deneb Templates
+  <title>The one with the sparklines. |  Deneb Templates
   </title>
 
   <!--
@@ -403,7 +403,7 @@
         
 
           
-            <span>The one with the bullet chart.</span>
+            <span>The one with the sparklines.</span>
           
 
         
@@ -633,7 +633,7 @@
 
 
 
-<h1 data-toc-skip>The one with the bullet chart.</h1>
+<h1 data-toc-skip>The one with the sparklines.</h1>
 
 <div class="post-meta text-muted">
 
@@ -663,12 +663,12 @@
 -->
 
 <em class="timeago"
-    data-ts="1648764000"
+    data-ts="1649973600"
     
       data-toggle="tooltip" data-placement="bottom" data-tooltip-df="llll"
     
     >
-  2022-04-01
+  2022-04-15
 </em>
 
       </span>
@@ -696,7 +696,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="583 words">
+  title="715 words">
   <em>3 min</em> read</span>
 
 
@@ -710,11 +710,11 @@
 
 <div class="post-content">
   <!-- description -->
-<p>This chart was part of <a href="https://www.workout-wednesday.com/2022/03/30/pbi-2022-w13/"><strong><em>Week 13 Workout Wednesday</em></strong></a>  challenge. For more information on the bullet chart, please see the <a href="https://datavizcatalogue.com/methods/bullet_graph.html" target="_blank">Data Visualisation Catalogue</a> for more information on the usage of the chart type.
+<p>This chart was part of the <a href="https://www.workout-wednesday.com/2022/04/06/2022-week-14-power-bi-create-an-achromatic-report/"><strong><em>Week 14 Workout Wednesday</em></strong></a>  challenge.<br />
 <!-- end description --></p>
 
 <!-- image -->
-<p align="center"><img data-src="https://raw.githubusercontent.com/thysvdw/site-images/main/posts/20220401/2022-04-01_bulletchart.jpg" alt="WOW2022 Week13" class="shadow normal" style="max-width: 50%" data-proofer-ignore="" data-proofer-ignore></p>
+<p align="center"><img data-src="https://raw.githubusercontent.com/thysvdw/site-images/main/posts/20220415/2022-04-15_sparkline.jpg" alt="WOW2022 Week14" class="shadow normal" style="max-width: 50%" data-proofer-ignore="" data-proofer-ignore></p>
 <!-- end image -->
 
 <!-- dataset -->
@@ -722,27 +722,52 @@
 <p>The dataset can be found on the Workout Wednesday link above.<br />
 <!-- end dataset  --></p>
 
-<!-- fields created -->
-<h2><i class="fa-solid fa-file-circle-plus"></i>&nbsp;&nbsp;Additional fields created</h2>
-
-<ul>
-  <li>Only one additional field created in Power Query. The MaxValue for each metric. This will be used as the background bar of the bullet chart.
-<!-- end fields created --></li>
-</ul>
-
 <!-- fields used -->
 <h2><i class="fa-solid fa-square-check" aria-hidden="true"></i>&nbsp;&nbsp;Fields used</h2>
+
 <ul>
-  <li>Metric</li>
-  <li>Actual</li>
-  <li>Previous</li>
-  <li>Goal</li>
-  <li>MaxValue
+  <li>Sub-Category</li>
+  <li>Monthend_Date</li>
+  <li>Sales</li>
+  <li>Profit
 <!-- end fields used --></li>
 </ul>
 
 <!-- specification -->
 <h2><i class="fa fa-chart-column" aria-hidden="true"></i>&nbsp;&nbsp;Specification</h2>
+
+<p>The specification in a nutshell:</p>
+
+<pre><code class="language-mermaid">facet 
+  * row
+spec
+  * layer
+    * text mark
+    * text mark
+    * area mark
+</code></pre>
+<!--``` json
+```-->
+<!-- end specification -->
+
+<!-- references  -->
+<h2><i class="fa-solid fa-link"></i>&nbsp;&nbsp;External references</h2>
+
+<ul>
+  <li><a href="https://vega.github.io/vega-lite/docs/facet.html" target="_blank">Faceting a Plot into a Trellis Plot</a>.</li>
+  <li><a href="https://vega.github.io/vega-lite/docs/area.html" target="_blank">Area chart</a>.
+<!-- end references --></li>
+</ul>
+
+<!-- view chart -->
+<h2><i class="fa-solid fa-chart-line"></i>&nbsp;&nbsp;View chart</h2>
+<p><a href=" https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQAEySYUqUMSSCGcCGgDaoAMrN+AYTXk2AJwCeaEAEEoUfTNs19ikAFk5ejhZZQARaycAJgAGGP5ogEZ+AGYEgBVo6NRM7OjfEx0fVEiEyIA2JQAFWzYAMzo0ABYAdjKAXwVTcytMGwcnV3cIT28DJQDZIJDw3qjY6PjI-kiATgysnMz8woNixuTmqpr6zDQyyOSOrqZLazI7R3RBjztR3wmpsIj0GLjo5JS6U2GzySgKgiKyRWYkiRzqDVQCQSK0iVxAZhuPT6jxcbheXh840C8Gm3xAvwW0UaKWi61yuW2EN2JUasJA1Xhp1QyTEAA40Rjbr17v0nnjhq9Cf5icEvrMfvN4mJAXTgYzIc0xAk4Sc0EiVtEBd07g8BuKRlKPiS5XA5n8yjTVSD1btGrzGisdQiErF+Z10cbhaaxUMLWNpZNrTNbQq-s0VcCGWCdmhNbzPezjgjIo1-kbMSbRbjQ5Lw1bZdG7ZTeQmQUn0SnUB7zl6uUixI180LsWaSwSyzLSfLyYroitHYmtsmmWgVs1IodM5y0Avmn7rt2RTjnhL++9Bzaq-wfbX6VOGzPUGJ-myObrUAaVl2sVve-i3kTIxWyRTj0lkrSk6gheRS8lC0StiuCS8gkz6Ftu5qlvuX5DjGI5xKUp5qtORQeumkGIskvKGv6govsGLg4DgwhILIQzIZ8laxpS-5AnW57gkUkQdryBGspcpGBj2TxUTRdGWgeTHoZSSyrE69acbsPIlARc7NHBQZFs4ok0LR9GfoxP6jgCqTyRxjY5s0jQEQB64BgWmnbjpekSShh7MfE1IAWZwGKWcjRiARx6NJ2gkOcJlHUbp4kDm5Um-tEyqmUBLormIa4EWUKIaRF2lRS5sWGcOCUOt5KU4UpCRlBBS73um6lhZuFF5WJ+kRkVaEJfGyXsb5jalEiBHIg1G7kVpzkxQxUZGX8NY9WefWXs0PqBbV3rnLBjVjU5+WTQZ03FaO45lb1qXctEvK8WtXKsiN9lNeNu1teWqFHie83YSBSnJMkFTXamYhiDlr4iU9rkdW9-6AadFVnFZf13t6sSbaN8EDBNz2STNCyYR9zqw6gZRaouiNcllJGo45Ay2Kc+3fodfysT5Z37NZ-2IkiwPNTTU3051o6yWs5VfSuLSZXdZFo08PN069Hn-Fh+Mi02rJDQkQNbVLLgy+1B3838XnQwtZ1lNBQ25lzWk6y97nSUqisKY2ZS5kNzQS0JIPa7Tut80e0SlUbn1+YiiQZqTK7nJb27W1jDOUt1bHGwTvJlCTWZctxKP3dt1Pezb8WjnNidB42zQ-UNKxPprVPS3nsf65Sx2B0rwdztq7PlO74We84Mdxdjx4LHjjuXs7t7p3qFxR7nvNy3bSITjDysJERafLtypTT7Xs+27+uPFy3jYp+P6-IlXlMRQAQjQIRwLYhV637TPC63+xr-eyJVVvIDX7f987wXP4gtmYE3OO-BE-BeQ5m-r-ZQd8H6+3liZA+I8uJrlWuHK8a4YE3zgf-WWu9RyGxAcrD0VUhpZXPtnLWsD4EAIHolB25lLyrFWARNcqJq5X1wXQghgDKQBxIcHHMC4CIXCoZLGuP8eH4J9nPLqTDFpcRaCfe8WUu4PRxLQ2R+cGFFyEf1SIvIy5iLECsASF9PbaIQfIo6i8k7LxKOlMR0EJEewotY+hcdB6KLOj6FeYcJ6IkaM7HBf8bGEIwlDAxo8yFBTnBY6hUjPF8IHvvGJRRAa-SCuUA0MC2BsAANZQCQBAcGj95bPyXsIlYV1MHznyUUkpZSIn8MWMsIW1T+qlARkE9sjTimlPKYgu2Cth7MKKMiIxmUBnNOGbYg29iS6XmGoE9eRjZlDNaQwpKKCJlKTLqoiBFxOGWI8QUwZLSvEN3iIIl+jYxAATWfeVIiTJFXwuXM7Z3jogJwybsBIzRMhiNNpsq5qSfn6PuZeEJNVMGD1OUkj5TStnXL9k3f5aBfrZPZseLUYL5mRJxkPPZSjXQXThUElIP0CXfJuQvE6DjhGlGSEFZEoUzlFkvp81FEL6VLHGWSrFRM2bwt+honO6ALAwCQDQHR9cn6+IJpEHMdSqVzm-tK2V8r+4-OAdCyEgMjltg7JqmVcq6V+2QZiq8MIMF9ORma7Vlr5bEINcyMczzvQ0q4Z7LVFq0Xy12TalYK9wFcmSNxJ1Aa+V+zuV0y87poQERghypFfrzU6ohvLP57qsVzkpafFY7RfUUX9VmipoyoUJqKCsRoyIxH+2jRWkZCUMV5sRFlUojaYjNpdfPElNqQlZTZXmUtRZy39r3tEjtCQAqm1Uqa8dOJJ2BvngK0lfjmy9PWfMTVbAcDeBbQsliSrlYAWBezFexF92Ht4XIol8RrUdpKJGwt95Q0p1vUeqdo5g0dp+tVIaiUKbprLQen9a6FGCrOskN076kaZG-fe3RkKz3ByRMRPivbl1OAsBBlDCr5btprUpGIwG7LvL9QR49j73qboJkiGICGI0olA1R8Dd7aNtIZc3VBAKLhAfZh2BcyHuNpI3TasoZQsMdw7FnDjRYACishSCCAPYStpiR0ONjfWrdj7jlOqbgOpnAmmGH6tI3qdumC02KZxCptTGnf1-GfVZq8gKxFEW-o5kzzmoNEKWYfFZfJ2GIvs04XzpnzM-P-e5n6Xq2whJ88Z6LLmBFBf42gKBYi3HdwolF-zsac06cvKFjueXNGRdS0Vh9Wnq1Mv6jyTKbzDMOZq2Z9L8QSONcvFCHdH9Hkpac51gLGFB0dv2CxvUeTcPoEK6N4r88Z3ua1Illckbht+cW3ViTpXcLq1dhrTlOIABipTeiyEI7qm52mYME32Obb+52ICXeu9m0ZlnetFBHVeiVWsXtvfEz8tz33mT2vXnZtrThAfBHe5WhKbr3PTKvQZ-LRZYdXeB7duLYOmiiodc9i7cPsdxsy-slcar15o6q+gTH8PW2jlze5udNkievZJ11i6+3dgydy+zoHXOevLMmWYzKx2wMY+J1jrr9GbXzhsgp6HdPpcM5PX+cnQrCJU7UUr9HZ3Vek48uk2dQLMrheVyAU7DBbCyBoBAGAN8yBc6qXjh8qQ1YlpOzDm3duHdO6519kXuwU4Q4-VD-XPvbf28d7IZ3Y3KSg+D7OMorKr31ue77mPAeE+eU12dTuBP15Qgt5HunWf-dx657j5PiIy7hqxS0TP0fK-x6WyVfPjH50V0o5b63LfY9t92z85nbufo5fZgcVrZercV8H1zhrte53cUV9P2ns+B85-b3YxltfVhgQIjxZvfv5+57l6bnMfEv1zY3yfrfw-6Urbd6nVn7MoFr8lbf7PVez+Scm-7Y1FcIFb+AAGSQCYBMxdx5w21UlAPAMgNz1iA6RtQ9yvQlwi3QDAIgMEC5yT2Cy4kv1Rw-y1iwIQO30WV33wIBTrRTWIKkVIJwMQJryoKxRTgoQj3XwYK53jTd2gmm1QGaEq0-y4MQNH1r1qSL3vBaF7xnxEPIOrGgO5EriGjAjgOwKF072VjEAXQ7g2RvzkIfzegm3i3MRUJp2EPgMYPkI10oKy2KAulUlL04MsNlz-2R0EKGlSG-j8CQFgBvhi1u1d1r3rV+RTSpG8N8NjwCL9iDxYL2H4KhAiL8Ku1wMUKsjT0wUjhvx8OSOiNdU0ODjLmvCCgAgtmyMiP8Or0ULgwyKCUSPKNyO4IKN0xTnW0RDAnQMtxyKiK5zELiNWBRFMSEK1m6MqMQMXziLnRdlxXKA4M-1GJSMQOF0mPSgb2KFBQaJ6LP2MLdzXCsgoQaU2LGOsN4xtSRFaBsypRCmLSSK2JOLcN4JzDaP4DKO93QEqCQDM1sEQKCLiJRDaP2DoIig+K+MQNiLsNKGKPZg9CBM9hBLvkQLwLsO4i1DVm0O-nhO+OsKpGaJC1MPZiBS90lxxExKYMUMBSJnYTLgxM+IROxJ4L3xiDDwRGLVhIolJOxL6IhJCUkIRGqicM-w5MMPlgmIhMrn4LAhkPXyFNQ1u2WLsIClDUbX2BpNBJOJ2KX3dDWLXDZKLBlKI2W1xMhA2iGg7H+ykX1JuzegeNryIiVL+3CJv0qBgDkDyNGV+LsM1ESCGm4mGItJdMWOxPBIp25B5H4OGgxIDLdISiRJDKslf0wTMU6Jn2dNdK5yRzdyMXtNswFK1lTMDOFNGWYLsNNhXlUlUKdKjKaNsJDLAke1RzdkjLTNEMUNDQ9D4liCbILNlL9lFJDJ9H+B129Qz0rObOxPlP7MeQbXTzdC7OjMVHP3c2MShMwR6T12lKrLPyfyXyslCLk1TznNcNbP9jWKqhgm-hMEwDsCQDIFtGxI9JDMjXKB9OTPX0vOvNvLBOQNnTAQrj9IinfNsBvLvMLJjOqJgmZJunTAvKvKAs-OxIzNr35IGwRDLiJIwPRFguArJPu1IRk0gvzVfM-0AuwvpKNN2Ddm9Lf0uhgo-JAp7JK1wuEXTAIuKGgpvxIvgtAsLkUKJihCv11JxE4vooNLbXIqaDrTWJhFzKkWEu2N4p9F5K5GvHMK1jkpOO3MmM-kuNPiIjmLUqwq4oYvXXJPmB0o-ihH0tkoYB0nnMZkUP2ATL6RwzeIDFssD2-OR1YvNIApsqijssT3JOWjWOWFaAvL8uEACrzxrK1xYsyn-M9jMHcpwoY3PWWlNPCuSrIpir8UGg7kEqcCSv8t6MUIXDaMBUyuKvGNKrNnZmqkqsio0JyoJmvGfNxUUqlOIoio-G4vGzSKUr1CIrUu6qitOMmxhCClTgap6uMr3htP6O0JQrbB9G-jSHAJnHvNKrdCWrQGPAAlWvWqiqQLklnUjQGtQH4G0PXM-zWqYA2t6sCqYoshaBCrPIOruqOsQv6NSFYpSGvHevutmr-VKp5HMogS1AKvQFusBtEtHAZLiIODdCClZFUqkWhqOq5JDIXB0PhWvCGrRsOoXwcuvXiXxoinRqar4xDI7FqSChTk6q1gpvkqepWTnTyvhW4kbJvyZo0vEsIiJmePOPQstx5oeuPHmrsOMRX1xTdnUgAF0OgQAoA5B6gyA0BQAkAGAryIAaAAAvGMUATAewMzJwXUJQZWyYWVWQXYEAHAJAZQZQJ3EARWpAAAD3t3VpAEwBoCgEKV2FqB0DKSUDIC8GUDQADpwLgCUGUDYGQBvnDsDqjpAEEEsPw3U2+PQAAGJqoxAlMxALBfAU7sDTtAgTA9aYxu0va6AIQS7JgnAAB3WoAAfVe1olUFsGUH4FqECAUAAAJ4BBBSBvaSk+6kAvAdA+6IBaIIB+AykvBahfBvbMAIQ067AnBM7uIRFkhF7q64Ba7MAy79a9Q-ol6a7AgAB1OAGgMgLAJwWQOwZAQQZ2pQYgbweuz217GoQpNCTAIC62u22wYIU4RW7uuu9AEwGwOAXugAVQAElfAx6oB1aXbAGNBQBhArs0Bf69Bza2B0717lAxBCHCHn6QAmAx7kGlAMGDaQBP6ik4Bz6aBlB6AVwlA6Hv6rAcAnAagGAQhfB2G4AAApNgeO9AHhvh3B-BrO6TGRsoUhnAERsB0AeoQQCEMO1AbBpOnWo+gQjWEAQBqALkYARW3oV2oxkAUBrkdESBmB+BpQSxw+iutkFRp+6RxKPOgul292iAAARQYFoiXrUBoFIE9uHsKXw14YjWDtDoTsjuiaYdXozpAEzosF5AsDKAsEaF8BDqYfCAdyMG1DEDlqocsNO10HydQAjrKS8ft0vjbtCZ9sKSUzMaAqwdsD0BqYgAAA1Pai6TMPiHanarxOmABNXpywgZx2uPPUEiDAOAe2hEzQKu5evewIBu5u1ukIMezuyxvugeoen2pAUe8ewQSe6e2eu+GgBepQU+1ZyYRx4+m53exJ9eze-iQu0ptZ8BmxuBj54u0u8uvUZISgH6UFsF8FtkPpwQF5tx3O-O0hiEW8vhpZ25-ewqn5ux5Zs+yYS+6+2+9AJgPBsOp5lZmF5JnOjxv5kzNF75+4KB35kp-5+5wFwiEF8F9ln6SF1OvBte2Fylth+wBAQlwQNIY2tCKAOVKACEfhwV4Vh53RtoRWiAO2iV6ZpZmod+4oEB3wuAcxjVz2+oEzdR4kxesVu+2Om+HQXweABZjOw23etAWQBgVRxlkzZwOPaV7IV1wQSZoZyu2531tVl4715wYQMgeQdACEWoYBxVthszJBpZ+uphlhxEcjOZvFjOVaV+uATV0AARx151wQRWlO+wRZ4wEAZAWwQpUJs19AUx72HQa+iN-RjN3wchspahpwBAJh5QaV6O123aleWZ4IZWqZtWlFuAMxg17wQQY1vyexh+tQJwBQSgaIa5r22tkAAAR38cmDoCCZCaUBvJDr4GHAgAYAQGdtjdAErerZRc3frYQbDeba8Bvu9nbZM38K7Z7b7ZUAHYupvSUBHbYDHdCcnfMcNdnacHDgXdsGQCsZXbXdNZNvQB3YCf3e9sPZAGPcAYoDPYvavbRFvZrZQ+w9Qd8Bvl6FsAUZTuHFkDUBtytcVuA9A6Wf-eUZneNZ7JuYfcQAUaAqfpJc9adZdaroQDgGgbtysdLbHoQGJAQe8YNcXasYAFImBe6VPHAlBJQwGvaD0r2lBHgOOjXCqUwePSO0O931BMOQKcPT20Jz3L22GSlPXQB9aag2mOmj3FOUWHXUARPTnk6XDYmg6q7fb-bE7FXFWFalBAGZBB6aHoBChPacQHcx64Aw6ougA" target="_blank">Open the Chart in the Vega Editor</a> 
+<!-- end view chart -->
+<!-- No chart view available. -->
+<!-- end view chart --></p>
+
+<!-- json template -->
+<h2><i class="fa-solid fa-share-from-square"></i>&nbsp;&nbsp;JSON template</h2>
 
 <div class="language-json highlighter-rouge"><div class="code-header">
         <span data-label-text="JSON"><i class="fas fa-code small"></i></span>
@@ -838,198 +863,209 @@
 90
 91
 92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
 </pre></td><td class="rouge-code"><pre><span class="p">{</span><span class="w">
-  </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dataset"</span><span class="p">},</span><span class="w">
-  </span><span class="nl">"facet"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"row"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Metric"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"sort"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Metric Order"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"order"</span><span class="p">:</span><span class="w"> </span><span class="s2">"descending"</span><span class="w">
-      </span><span class="p">},</span><span class="w">
-      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ordinal"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"header"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"labelAngle"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"labelAlign"</span><span class="p">:</span><span class="w"> </span><span class="s2">"left"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"labelPadding"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="w">
-      </span><span class="p">}</span><span class="w">
-    </span><span class="p">}</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="nl">"spacing"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"spec"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"x"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"quantitative"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"scale"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"nice"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">},</span><span class="w">
-        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"axis"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"format"</span><span class="p">:</span><span class="w"> </span><span class="s2">".2s"</span><span class="p">}</span><span class="w">
-      </span><span class="p">},</span><span class="w">
-      </span><span class="nl">"tooltip"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-        </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Actual"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Current Actual"</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="p">{</span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Goal"</span><span class="p">},</span><span class="w">
-        </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Previous"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Previous Actual"</span><span class="w">
-        </span><span class="p">}</span><span class="w">
-      </span><span class="p">]</span><span class="w">
+  </span><span class="nl">"$schema"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://vega.github.io/schema/vega-lite/v5.json"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"usermeta"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"deneb"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.1.0.0"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"metaVersion"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"provider"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vegaLite"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"providerVersion"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.2.0"</span><span class="w">
     </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"layer"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="nl">"interactivity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"tooltip"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"contextMenu"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"selection"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"dataPointLimit"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"information"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The one with the sparkline"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Matrix with sparkline"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Thys"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"uuid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4cbe8364-5bec-4922-a946-0f5600f1cb29"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"generated"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2022-04-15T12:11:15.249Z"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"dataset"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
       </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"transform"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-          </span><span class="p">{</span><span class="w">
-            </span><span class="nl">"calculate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"datum.MaxValue * 1.05"</span><span class="p">,</span><span class="w">
-            </span><span class="nl">"as"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__length__"</span><span class="w">
-          </span><span class="p">}</span><span class="w">
-        </span><span class="p">],</span><span class="w">
-        </span><span class="nl">"mark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bar"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#efefef"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"x"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__length__"</span><span class="p">}</span><span class="w">
-        </span><span class="p">}</span><span class="w">
+        </span><span class="nl">"key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__0__"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sub-Category"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Used to produce the rows of Matrix"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"column"</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"mark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bar"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#a7c0d6"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"x"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Previous"</span><span class="p">}</span><span class="w">
-        </span><span class="p">}</span><span class="w">
+        </span><span class="nl">"key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__1__"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MonthendDate"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Date field used to produce sparkline"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dateTime"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"column"</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"mark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bar"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#4d7bbc"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"x"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Actual"</span><span class="p">}</span><span class="w">
-        </span><span class="p">}</span><span class="w">
+        </span><span class="nl">"key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__2__"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sales"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Measure to show in matrix"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"numeric"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"measure"</span><span class="w">
       </span><span class="p">},</span><span class="w">
       </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"mark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tick"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"black"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">20</span><span class="w">
-        </span><span class="p">},</span><span class="w">
-        </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"x"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Goal"</span><span class="p">}</span><span class="w">
-        </span><span class="p">}</span><span class="w">
+        </span><span class="nl">"key"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__3__"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Profit"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Second Measure to use in matrix"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"numeric"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"kind"</span><span class="p">:</span><span class="w"> </span><span class="s2">"measure"</span><span class="w">
       </span><span class="p">}</span><span class="w">
     </span><span class="p">]</span><span class="w">
   </span><span class="p">},</span><span class="w">
-  </span><span class="nl">"resolve"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"scale"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"x"</span><span class="p">:</span><span class="w"> </span><span class="s2">"independent"</span><span class="p">}</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></pre></td></tr></tbody></table></code></div></div>
-<!-- end specification -->
-
-<!-- config -->
-<h2><i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;Config</h2>
-
-<div class="language-json highlighter-rouge"><div class="code-header">
-        <span data-label-text="JSON"><i class="fas fa-code small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-</pre></td><td class="rouge-code"><pre><span class="p">{</span><span class="w">
+  </span><span class="nl">"config"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="nl">"autosize"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"fit"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"contains"</span><span class="p">:</span><span class="w"> </span><span class="s2">"padding"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"axis"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"ticks"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"grid"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"domain"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"labelColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#605E5C"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"labelFontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"titleFont"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf_standard-font, helvetica, arial, sans-serif"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"titleColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#252423"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"titleFontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"titleFontWeight"</span><span class="p">:</span><span class="w"> </span><span class="s2">"normal"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"view"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"stroke"</span><span class="p">:</span><span class="w"> </span><span class="s2">"transparent"</span><span class="p">},</span><span class="w">
     </span><span class="nl">"font"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Segoe UI"</span><span class="p">,</span><span class="w">
     </span><span class="nl">"arc"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
     </span><span class="nl">"area"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"line"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"opacity"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.6</span><span class="w">
+      </span><span class="nl">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#d5d5d5"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"bar"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
     </span><span class="nl">"line"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"strokeWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"strokeWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
       </span><span class="nl">"strokeCap"</span><span class="p">:</span><span class="w"> </span><span class="s2">"round"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"strokeJoin"</span><span class="p">:</span><span class="w"> </span><span class="s2">"round"</span><span class="w">
+      </span><span class="nl">"strokeJoin"</span><span class="p">:</span><span class="w"> </span><span class="s2">"round"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"color"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#666666"</span><span class="w">
     </span><span class="p">},</span><span class="w">
     </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
     </span><span class="nl">"point"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -1047,20 +1083,9 @@
       </span><span class="nl">"fontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
       </span><span class="nl">"fill"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#605E5C"</span><span class="w">
     </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"axis"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"ticks"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"grid"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"domain"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"labelColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#605E5C"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"labelFontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"titleFont"</span><span class="p">:</span><span class="w"> </span><span class="s2">"wf_standard-font, helvetica, arial, sans-serif"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"titleColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#252423"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"titleFontSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"titleFontWeight"</span><span class="p">:</span><span class="w"> </span><span class="s2">"normal"</span><span class="w">
-    </span><span class="p">},</span><span class="w">
     </span><span class="nl">"axisQuantitative"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
       </span><span class="nl">"tickCount"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"grid"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"grid"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
       </span><span class="nl">"gridColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#C8C6C4"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"gridDash"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">],</span><span class="w">
       </span><span class="nl">"labelFlush"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
@@ -1085,23 +1110,95 @@
       </span><span class="nl">"labelColor"</span><span class="p">:</span><span class="w"> </span><span class="s2">"#605E5C"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"symbolType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"circle"</span><span class="p">,</span><span class="w">
       </span><span class="nl">"symbolSize"</span><span class="p">:</span><span class="w"> </span><span class="mi">75</span><span class="w">
-    </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"tick"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"thickness"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">}</span><span class="w">
-  </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"data"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"dataset"</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"spacing"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"row"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">},</span><span class="w">
+  </span><span class="nl">"facet"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"row"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__0__"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"nominal"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"header"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"labelAngle"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"labelPadding"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"titlePadding"</span><span class="p">:</span><span class="w"> </span><span class="mi">-4</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"labelAlign"</span><span class="p">:</span><span class="w"> </span><span class="s2">"left"</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"spec"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"width"</span><span class="p">:</span><span class="w"> </span><span class="mi">120</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"height"</span><span class="p">:</span><span class="w"> </span><span class="mi">25</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"view"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"stroke"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">},</span><span class="w">
+    </span><span class="nl">"layer"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"mark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"align"</span><span class="p">:</span><span class="w"> </span><span class="s2">"right"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"baseline"</span><span class="p">:</span><span class="w"> </span><span class="s2">"middle"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"dx"</span><span class="p">:</span><span class="w"> </span><span class="mi">-130</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__2__"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"format"</span><span class="p">:</span><span class="w"> </span><span class="s2">",.0f"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"quantitative"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"aggregate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sum"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"mark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"text"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"align"</span><span class="p">:</span><span class="w"> </span><span class="s2">"right"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"baseline"</span><span class="p">:</span><span class="w"> </span><span class="s2">"middle"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"dx"</span><span class="p">:</span><span class="w"> </span><span class="mi">-80</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__3__"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"format"</span><span class="p">:</span><span class="w"> </span><span class="s2">",.0f"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"quantitative"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"aggregate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sum"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"mark"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"area"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"interpolate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"natural"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"encoding"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"x"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__1__"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"temporal"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"timeUnit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"yearmonth"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"axis"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"format"</span><span class="p">:</span><span class="w"> </span><span class="s2">"%b %y"</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"orient"</span><span class="p">:</span><span class="w"> </span><span class="s2">"top"</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="nl">"y"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"field"</span><span class="p">:</span><span class="w"> </span><span class="s2">"__2__"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"quantitative"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"aggregate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sum"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"scale"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"zero"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">},</span><span class="w">
+            </span><span class="nl">"axis"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+              </span><span class="nl">"title"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"labels"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+              </span><span class="nl">"ticks"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"resolve"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"scale"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nl">"y"</span><span class="p">:</span><span class="w"> </span><span class="s2">"shared"</span><span class="p">}}</span><span class="w">
+</span><span class="p">}</span><span class="w">
 </span></pre></td></tr></tbody></table></code></div></div>
-<!-- end config -->
-
-<!-- references  -->
-<h2><i class="fa-solid fa-link"></i>&nbsp;&nbsp;External references</h2>
-<ul>
-  <li><a href="https://vega.github.io/vega-lite/examples/facet_bullet.html">Bullet Chart</a> - used as the starting point.
-<!-- end references --></li>
-</ul>
-
-<!-- view chart -->
-<h2><i class="fa-solid fa-chart-line"></i>&nbsp;&nbsp;View chart</h2>
-<p><a href="https://vega.github.io/editor/#/url/vega-lite/N4IgJAzgxgFgpgWwIYgFwhgF0wBwqgegIDc4BzJAOjIEtMYBXAI0poHsDp5kTykBaADZ04JAKyUAVhDYA7EABoQAEySYUqUMSSCGcCGgDaoALJxMAJxpQ0IAAoW2kuFEwACO3AtQ4s9wGE2BBxBczhFEABBVwYdNDExJQBxNjjUADYABiUHOGJ2BgNUMWyQEyQADwA1HT00LIBfBVNzKxt0AHlZfgAVGgQ4Nx6kCABrN0Dg0Mx2eSVozFjBNABOAHZk1OXUAEZM0tz8tkK0NcSyyprdcN39ppbLa1sHIJoIOGU3ACU4AEcGGgWRC+TAQNxmTARBZLVYAJk2aT2ByBRxOqAAHBsLtVajckfcyq0nugenAkAg3ABVGbCABealm3zU4XmMURewR2xW50OBSKe3O5Rx1zQOz2BIhbVsgQgoKhbO2OzEa0ysJKnNFYnR+32ORRfNFsJWOtKQqudV2WpNEqJ7RA-kKmCCXjcAGUGRAAGZIVyMgCSsmUcAq8sWaTW6I1qGNeryBoxgsuuNWmRtjztpPJbo93t9cjcAaDIdZYa5OyjMfs+uORXRABYlGbk9Gdmmpeg7GxZfwACJwEJsACeAz8boYOBwbAs7gAEscLAYSzDbqUUml0Tzq2jMY2kyKVw0ALpNEC58xoUCOADuF9PNDggmUtklTyUMmnt8998fz9tbg6FhBhYERTkBthBtAvjKDQshkCAJ6YIOOA3CAoEwXESjwEgYGaCAghIEwD6RLBoRoKUMyYKR6ARPhhGCJEwhkPI6ChJ6kJKLRD52Nh0GwWgADMqYNCeEA4D6MFwagsKlKJLi3r4UBsLxkmgCGuGIchtj-Egfh0AypARNAOg3KAsjWDc3qCO8CF0FRsgMIIghKJUbyflOyCQuglCwgYwlKE6bCCDMOBGKAX4Pk+6DQhhIAUVR9oMBYQKjtFywEuFP7oGuaXNHeEXPFui6xbZKG8jWbipfBx4cUgg5eKFsUWDpXruQ1UA6FADnMuBagMAglBNtcbgAFRuDslCZGIEQjLYAD6s2hLB9DzVVSjIBYoy3hpKFMEgwFKIpghTrYADEcCeud52GTQtI3IJJ4KUpEm3mpYXfpFIDzYtZDLbN8F+aA62bepSE7XtESHcd6AnUgaxQJkyjpNdt1oNJD2yIpykvZ+70FXGNb-QSQNbaDti7ftICQ8B0N1soaxMEwNhvjdeKpkoj1Y7hr15ZlUQKoTuXEyDmnoDMUCbQdgVQyATD4eLyM3Gj7MY09fFczj+VZVshPVSAQIyIIBm4UZVGqbYMFBshgYgoTQA" target="_blank">Open the Chart in the Vega Editor</a>
-<!-- end view chart --></p>
+<p>&lt;!– end of json template&gt;</p>
 
 </div>
 
@@ -1121,8 +1218,8 @@
       <a href="/tags/powerbi/"
           class="post-tag no-text-decoration" >powerbi</a>
       
-      <a href="/tags/bullet-chart/"
-          class="post-tag no-text-decoration" >bullet chart</a>
+      <a href="/tags/sparkline/"
+          class="post-tag no-text-decoration" >sparkline</a>
       
       <a href="/tags/wow2022/"
           class="post-tag no-text-decoration" >wow2022</a>
@@ -1163,7 +1260,7 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=The+one+with+the+bullet+chart.+-+Thys&url=https%3A%2F%2Fthysvdw.github.io%2Fposts%2Fthe-one-with-the-bullet-chart%2F" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=The+one+with+the+sparklines.+-+Thys&url=https%3A%2F%2Fthysvdw.github.io%2Fposts%2Fthe-one-with-the-sparkline%2F" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
@@ -2169,46 +2266,46 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -2492,7 +2589,7 @@ I am only going to provide the specification and configuration for the Cost Grou
       
       
       <div class="card">
-        <a href="/posts/the-one-with-the-timeline/">
+        <a href="/posts/the-one-with-the-bullet-chart/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2500,13 +2597,13 @@ I am only going to provide the specification and configuration for the Cost Grou
 -->
 
 <em class="timeago small"
-    data-ts="1649023200"
+    data-ts="1648764000"
     
     >
-  2022-04-04
+  2022-04-01
 </em>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>The one with the timeline</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>The one with the bullet chart.</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2515,17 +2612,9 @@ I am only going to provide the specification and configuration for the Cost Grou
 
 
 
-                A timeline chart or a layered dumbell chart.
+                The bullet chart is typically used to display performance data.
                 <!-- 
-This chart was part of my submission for the Week 13 Workout Wednesday  challenge. I did not think it necessary to add a post for this, but I was requested to add it - so here goes.
-
-
-
-
-
-
-
-&amp;nbsp;&amp;... -->
+This chart was part of Week 13 Workout Wednesday  challenge. For more information on the bullet chart, please see the Data Visualisation Catalogue for more information on the usage of the chart ty... -->
               </p>
             </div>
           </div>
@@ -2544,17 +2633,17 @@ This chart was part of my submission for the Week 13 Workout Wednesday  challe
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/getting-started-with-deneb/" class="btn btn-outline-primary"
+  <a href="/posts/the-one-with-the-boxplot/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>Getting Started with Deneb</p>
+    <p>The one with the boxplot</p>
   </a>
   
 
   
-  <a href="/posts/the-one-with-the-timeline/" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="Newer">
-    <p>The one with the timeline</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
 </div>
