@@ -1,8 +1,23 @@
 [
   
   {
+    "title": "The one with the other sparkline.",
+    "url": "/posts/the-one-with-the-other-sparkline/",
+    "categories": "",
+    "tags": "deneb, powerbi, sparkline, wow2022, workout wednesday",
+    "date": "2022-04-17 00:00:00 +0200",
+    
+
+
+
+
+
+    "snippet": "I recently came across a Stackoverflow  question, on the possibility of creating sparklines within vega-lite.&lt;p&gt;The question pointed to a visual that show the number of Covid Cases by State Having played around a lot with Deneb and PowerBI I thought this should actually be possible with not a lot of code.  I had a lot of issues doing this in Power BI with Deneb, as Power BI kept crashing due to Webview2 issues. I think the amount of datapoints was an issue, even with the limit of 10,000 records.&nbsp;&nbsp;DatasetThe dataset can be downloaded at the following link.&nbsp;&nbsp;Fields used  date  state  positiveIncreases  positive&nbsp;&nbsp;SpecificationThe specification in a nutshell:facet   * rowspec  * layer    * text mark    * text mark    * area mark{  \"$schema\": \"https://vega.github.io/schema/vega-lite/v5.json\",  \"data\": {    \"url\": \"https://api.covidtracking.com/v1/states/daily.csv\",    \"name\": \"dataset\",    \"format\": {\"type\": \"csv\"}  },  \"facet\": {     \"row\": {      \"field\": \"state\",      \"sort\": {        \"field\": \"positiveIncrease\",        \"op\": \"average\",        \"order\": \"descending\"      }    }  },  \"spec\": {    \"transform\": [    {      \"calculate\": \"datetime(slice(datum.date,0,4), slice(datum.date,4,6),[slice(datum.date,6,8)])\",      \"as\": \"__date\"    }  ],    \"height\": 20,    \"layer\": [      {        \"mark\": {          \"type\": \"area\"        },        \"encoding\": {          \"x\": {            \"field\": \"__date\",            \"type\": \"temporal\",            \"timeUnit\": \"yearmonthdate\",            \"axis\": {              \"title\": null,              \"orient\": \"top\",              \"domain\": false,              \"ticks\": false,              \"labels\": false,              \"grid\": false            }          },          \"y\": {            \"field\": \"positiveIncrease\",            \"aggregate\": \"sum\",            \"type\": \"quantitative\",            \"axis\": {              \"title\": null,              \"domain\": false,              \"labels\": false,              \"ticks\": false,              \"grid\": false            }          }        }      },      {        \"mark\": {          \"type\": \"text\",          \"align\": \"right\",          \"dx\": -120        },        \"encoding\": {          \"text\": {            \"aggregate\": {              \"argmax\": \"__date\"            },            \"field\": \"positiveIncrease\",            \"format\": \",.0f\",            \"type\": \"quantitative\"          }        }      },      {        \"mark\": {          \"type\": \"text\",          \"align\": \"right\",          \"dx\": -180        },        \"encoding\": {          \"text\": {            \"aggregate\": {              \"argmax\": \"__date\"            },            \"field\": \"positive\",            \"format\": \",.0f\",            \"type\": \"quantitative\"          }        }      }    ]  },  \"resolve\": {    \"scale\": {\"y\": \"independent\"}  }}&nbsp;&nbsp;Config  \"view\": {\"stroke\": \"transparent\"},  \"header\": {    \"title\": null,    \"labelAngle\": 0,    \"labelAlign\": \"left\",    \"labelFontSize\": 12,    \"labelFont\": \"Arial\"  },  \"text\": {    \"font\": \"Arial\",    \"fontSize\": 12  },  \"facet\": {\"spacing\": 1},  \"area\":{      \"interpolate\": \"monotone\",          \"line\": {            \"color\": \"red\",            \"strokeWidth\": 1,            \"interpolate\": \"monotone\"          },          \"fill\": \"#faa\"  }&nbsp;&nbsp;External references  Faceting a Plot into a Trellis Plot.  Area chart.&nbsp;&nbsp;View chartOpen the Chart in the Vega Editor "
+  },
+  
+  {
     "title": "The one with the sparklines.",
-    "url": "/posts/the-one-with-the-sparkline/",
+    "url": "/posts/the-one-with-sparkline/",
     "categories": "",
     "tags": "deneb, powerbi, sparkline, wow2022, workout wednesday",
     "date": "2022-04-15 00:00:00 +0200",

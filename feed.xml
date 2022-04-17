@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
-  <updated>2022-04-15T14:49:26+02:00</updated>
+  <updated>2022-04-17T18:43:54+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -20,14 +20,49 @@
 
   
   <entry>
+    <title>The one with the other sparkline.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-other-sparkline/" rel="alternate" type="text/html" title="The one with the other sparkline." />
+    <published>2022-04-17T00:00:00+02:00</published>
+  
+    <updated>2022-04-17T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-other-sparkline/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-other-sparkline/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+I recently came across a Stackoverflow  question, on the possibility of creating sparklines within vega-lite.&amp;lt;p&amp;gt;The question pointed to a visual that show the number of Covid Cases by State Having played around a lot with Deneb and PowerBI I thought this should actually be possible with not a lot of code.
+
+  I had a lot of issues doing this in Power BI with Deneb, as Power BI kept crashi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>The one with the sparklines.</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-the-sparkline/" rel="alternate" type="text/html" title="The one with the sparklines." />
+    <link href="https://thysvdw.github.io/posts/the-one-with-sparkline/" rel="alternate" type="text/html" title="The one with the sparklines." />
     <published>2022-04-15T00:00:00+02:00</published>
   
     <updated>2022-04-15T00:00:00+02:00</updated>
   
-    <id>https://thysvdw.github.io/posts/the-one-with-the-sparkline/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-the-sparkline/" />
+    <id>https://thysvdw.github.io/posts/the-one-with-sparkline/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-sparkline/" />
     <author>
       <name>author1</name>
     </author>
@@ -245,50 +280,6 @@ The dataset can be found on the Workout Wednesday link above.
 
 
   Only one additional field created in Power Query. The MaxValue...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started with Deneb</title>
-    <link href="https://thysvdw.github.io/posts/getting-started-with-deneb/" rel="alternate" type="text/html" title="Getting Started with Deneb" />
-    <published>2022-03-24T00:00:00+02:00</published>
-  
-    <updated>2022-04-01T16:28:12+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/getting-started-with-deneb/</id>
-    <content src="https://thysvdw.github.io/posts/getting-started-with-deneb/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-    <category term="Deneb" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      What is Deneb?
-
-As quoted on Deneb’s site, Deneb is … a certified custom visual for Microsoft Power BI….
-
-It’s developed by Daniel Marsh-Patrick. The custom visual is build on Vega and Vega-lite  visual language.
-
-Please visit the Deneb website. Here you will find more information on how to get started with this custom visual.
-
-Why do I use Deneb?
-
-Deneb is a lot of fun to work with. I love to ...
     </summary>
   
 
