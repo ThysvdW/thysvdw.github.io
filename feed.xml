@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
-  <updated>2022-04-17T18:43:54+02:00</updated>
+  <updated>2022-05-07T14:45:00+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -20,11 +20,59 @@
 
   
   <entry>
+    <title>The one with the burndown chart .</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-burndown-chart/" rel="alternate" type="text/html" title="The one with the burndown chart ." />
+    <published>2022-05-07T00:00:00+02:00</published>
+  
+    <updated>2022-05-07T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-burndown-chart/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-burndown-chart/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+This chart was part of the Week 18 Workout Wednesday  challenge.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above. I’ve added a calculated Date table. The Date table was linked to the Superstore order_date field.
+
+Date = 
+VAR __StartYear = YEAR ( MIN ( superstore[order_date] ) )
+VAR __EndYear = YEAR ( MAX ( superstore[order_date] ) )
+
+VAR __Calendar = CAL...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>The one with the other sparkline.</title>
     <link href="https://thysvdw.github.io/posts/the-one-with-the-other-sparkline/" rel="alternate" type="text/html" title="The one with the other sparkline." />
     <published>2022-04-17T00:00:00+02:00</published>
   
-    <updated>2022-04-17T00:00:00+02:00</updated>
+    <updated>2022-04-17T18:50:58+02:00</updated>
   
     <id>https://thysvdw.github.io/posts/the-one-with-the-other-sparkline/</id>
     <content src="https://thysvdw.github.io/posts/the-one-with-the-other-sparkline/" />
@@ -45,9 +93,11 @@
 
 
       
-I recently came across a Stackoverflow  question, on the possibility of creating sparklines within vega-lite.&amp;lt;p&amp;gt;The question pointed to a visual that show the number of Covid Cases by State Having played around a lot with Deneb and PowerBI I thought this should actually be possible with not a lot of code.
+I recently came across a Stackoverflow  question, on the possibility of creating sparklines within vega-lite.
 
-  I had a lot of issues doing this in Power BI with Deneb, as Power BI kept crashi...
+The question pointed to a visual that show the number of Covid Cases by State.  Having played around a lot with Deneb and PowerBI I thought this should actually be possible with not a lot of code.
+
+  I had a lot of issues doing this in Power BI with Deneb, as Power BI kept crashing du...
     </summary>
   
 
@@ -231,55 +281,6 @@ This chart was part of my submission for the Week 13 Workout Wednesday  challe
 
 &amp;nbsp;&amp;nbsp;Dataset
 The dataset is part of the presentation on the Workout Wednesday challenge. The data was entered into a table using Power Query enter data. The table had two columns, the description and ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the bullet chart.</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/" rel="alternate" type="text/html" title="The one with the bullet chart." />
-    <published>2022-04-01T00:00:00+02:00</published>
-  
-    <updated>2022-04-01T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-the-bullet-chart/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-This chart was part of Week 13 Workout Wednesday  challenge. For more information on the bullet chart, please see the Data Visualisation Catalogue for more information on the usage of the chart type.
-
-
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the Workout Wednesday link above.
-
-
-
-&amp;nbsp;&amp;nbsp;Additional fields created
-
-
-  Only one additional field created in Power Query. The MaxValue...
     </summary>
   
 
