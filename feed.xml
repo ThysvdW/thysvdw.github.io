@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
-  <updated>2022-06-12T14:37:34+02:00</updated>
+  <updated>2022-06-12T14:41:37+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -20,11 +20,57 @@
 
   
   <entry>
+    <title>The one with the hex-tile maps.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" rel="alternate" type="text/html" title="The one with the hex-tile maps." />
+    <published>2022-06-12T13:00:00+02:00</published>
+  
+    <updated>2022-06-12T14:41:28+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+While scrolling through my twitter timeline, I came across   Deborah Simmonds’s  redo of a Makeover Monday graph. This seemed like an interesting redo for Deneb &amp;amp; PowerBI, as Shad Frigui recently published a Hex-tile map done in Vega-lite.
+
+
+
+
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the  Makeover Monday website  for Week 3.You require the Excel file from the blog post by  Ke...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>The one with the rank chart.</title>
     <link href="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" rel="alternate" type="text/html" title="The one with the rank chart." />
-    <published>2022-05-07T00:00:00+02:00</published>
+    <published>2022-06-12T08:00:00+02:00</published>
   
-    <updated>2022-05-07T00:00:00+02:00</updated>
+    <updated>2022-06-12T14:41:28+02:00</updated>
   
     <id>https://thysvdw.github.io/posts/the-one-with-the-rank-chart/</id>
     <content src="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" />
@@ -83,57 +129,11 @@ No additional fields created
 
   
   <entry>
-    <title>The one with the hex-tile maps.</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" rel="alternate" type="text/html" title="The one with the hex-tile maps." />
-    <published>2022-05-07T00:00:00+02:00</published>
-  
-    <updated>2022-05-07T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-While scrolling through my twitter timeline, I came across   Deborah Simmonds’s  redo of a Makeover Monday graph. This seemed like an interesting redo for Deneb &amp;amp; PowerBI, as Shad Frigui recently published a Hex-tile map done in Vega-lite.
-
-
-
-
-
-
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the  Makeover Monday website  for Week 3.You require the Excel file from the blog post by  Ke...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
     <title>The one with the burndown chart .</title>
     <link href="https://thysvdw.github.io/posts/the-one-with-the-burndown-chart/" rel="alternate" type="text/html" title="The one with the burndown chart ." />
     <published>2022-05-07T00:00:00+02:00</published>
   
-    <updated>2022-05-07T00:00:00+02:00</updated>
+    <updated>2022-06-12T14:37:55+02:00</updated>
   
     <id>https://thysvdw.github.io/posts/the-one-with-the-burndown-chart/</id>
     <content src="https://thysvdw.github.io/posts/the-one-with-the-burndown-chart/" />
