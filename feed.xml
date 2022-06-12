@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
-  <updated>2022-05-07T14:45:00+02:00</updated>
+  <updated>2022-06-12T14:37:34+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -17,6 +17,115 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The one with the rank chart.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" rel="alternate" type="text/html" title="The one with the rank chart." />
+    <published>2022-05-07T00:00:00+02:00</published>
+  
+    <updated>2022-05-07T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-rank-chart/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+This was a Tableau redo of  Takafumi Shukuya’s work  as seen on Tableau Public.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the  Makeover Monday website  for Week 5.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+No additional fields created
+
+
+
+&amp;nbsp;&amp;nbsp;Fields used
+
+  Year
+  Code (Country Code)
+  Country (Country Description)
+  Score
+  Indicator (Dimension field)
+
+
+
+
+&amp;nbsp;&amp;nbsp;Speci...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the hex-tile maps.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" rel="alternate" type="text/html" title="The one with the hex-tile maps." />
+    <published>2022-05-07T00:00:00+02:00</published>
+  
+    <updated>2022-05-07T00:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+While scrolling through my twitter timeline, I came across   Deborah Simmonds’s  redo of a Makeover Monday graph. This seemed like an interesting redo for Deneb &amp;amp; PowerBI, as Shad Frigui recently published a Hex-tile map done in Vega-lite.
+
+
+
+
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the  Makeover Monday website  for Week 3.You require the Excel file from the blog post by  Ke...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -171,116 +280,6 @@ spec
 
 
 &amp;nbsp;&amp;nbsp;Exter...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the boxplot</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-the-boxplot/" rel="alternate" type="text/html" title="The one with the boxplot" />
-    <published>2022-04-05T00:00:00+02:00</published>
-  
-    <updated>2022-04-05T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/the-one-with-the-boxplot/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-the-boxplot/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-This chart was a Tableau Workout Wednesday challenge. Week 12 Tableau Workout Wednesday
-
-
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset is part of the presentation on the Workout Wednesday challenge above.
-
-
-
-&amp;nbsp;&amp;nbsp;Additional fields created
-
-Jitter
-Jitter = RANDBETWEEN(2,18)
-
-
-
-
-&amp;nbsp;&amp;nbsp;Fields used
-
-
-  Playoffs
-  Team
-  Name
-  Age
-  Jitter
-
-
-
-
-&amp;nbsp;&amp;nbsp;Specification
-
-The specification in a...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the timeline</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-the-timeline/" rel="alternate" type="text/html" title="The one with the timeline" />
-    <published>2022-04-04T00:00:00+02:00</published>
-  
-    <updated>2022-04-15T14:49:08+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/the-one-with-the-timeline/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-the-timeline/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-This chart was part of my submission for the Week 13 Workout Wednesday  challenge. I did not think it necessary to add a post for this, but I was requested to add it - so here goes.
-
-
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset is part of the presentation on the Workout Wednesday challenge. The data was entered into a table using Power Query enter data. The table had two columns, the description and ...
     </summary>
   
 
