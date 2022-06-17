@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
-  <updated>2022-06-12T14:58:22+02:00</updated>
+  <updated>2022-06-17T17:53:41+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -17,6 +17,58 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The one with the scatterplot sheet music.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-scatter-plot-sheet-music/" rel="alternate" type="text/html" title="The one with the scatterplot sheet music." />
+    <published>2022-06-17T17:00:00+02:00</published>
+  
+    <updated>2022-06-17T17:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-scatter-plot-sheet-music/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-scatter-plot-sheet-music/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+The chart was posted as part of the PowerBI Workout Wednesday 2022  challenge.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above.
+
+
+
+  Before you continue with the template, please be mindful that I don’t have any music background. The challenge was merely done to see what is possible with Deneb and text layers.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+I ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -207,79 +259,6 @@ I recently came across a Stackoverflow  question, on the possibility of creati
 The question pointed to a visual that show the number of Covid Cases by State.  Having played around a lot with Deneb and PowerBI I thought this should actually be possible with not a lot of code.
 
   I had a lot of issues doing this in Power BI with Deneb, as Power BI kept crashing du...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the sparklines.</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-sparkline/" rel="alternate" type="text/html" title="The one with the sparklines." />
-    <published>2022-04-15T00:00:00+02:00</published>
-  
-    <updated>2022-04-15T00:00:00+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/the-one-with-sparkline/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-sparkline/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-This chart was part of the Week 14 Workout Wednesday  challenge.
-
-
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the Workout Wednesday link above.
-
-
-
-&amp;nbsp;&amp;nbsp;Fields used
-
-
-  Sub-Category
-  Monthend_Date
-  Sales
-  Profit
-
-
-
-
-&amp;nbsp;&amp;nbsp;Specification
-
-The specification in a nutshell:
-
-facet 
-  * row
-spec
-  * layer
-    * text mark
-    * text mark
-    * area mark
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Exter...
     </summary>
   
 
