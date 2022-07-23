@@ -11,6 +11,8 @@ const resource = [
   '/index.html',
   '/404.html',
   
+    '/templates/',
+  
     '/tags/',
   
     '/archives/',
