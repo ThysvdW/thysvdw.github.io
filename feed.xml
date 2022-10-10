@@ -1,0 +1,276 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://thysvdw.github.io/</id>
+  <title>Thys</title>
+  <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
+  <updated>2022-10-10T10:40:46+02:00</updated>
+  <author>
+    <name>Thys</name>
+    <uri>https://thysvdw.github.io/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://thysvdw.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="https://thysvdw.github.io/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
+  <rights> © 2022 Thys </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>The one with the tadpole chart.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-tadpole-chart/" rel="alternate" type="text/html" title="The one with the tadpole chart." />
+    <published>2022-10-09T20:00:00+02:00</published>
+  
+    <updated>2022-10-09T20:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-tadpole-chart/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-tadpole-chart/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+I recently came across a tweet by @Haquafresh  that pointed to a Tadpole chart that is now available in Tableau. With a 100 lines of json code, excluding configuration, it is also available in PowerBI using Deneb.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset is the Tableau Superstore dataset, that can be found at the following link.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+Profit
+Profit = SUM ( Ord...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with Font Awesome icons.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-fontawesome-icons/" rel="alternate" type="text/html" title="The one with Font Awesome icons." />
+    <published>2022-10-06T20:00:00+02:00</published>
+  
+    <updated>2022-10-07T08:30:14+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-fontawesome-icons/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-fontawesome-icons/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+I am a regular visitor to Shad Frigui’s Github  page. He did a post  a while back about alcohol consumption, in which he utilized a “point” mark with a SVG path for the bottle.
+We all love our icons and adding it to PowerBI just got a lot easier, with the help of Deneb Custom Visual and Font Awesome’s SVG path for their icons.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+You don’t need any dataset for this visu...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the scatterplot sheet music.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-scatter-plot-sheet-music/" rel="alternate" type="text/html" title="The one with the scatterplot sheet music." />
+    <published>2022-06-17T17:00:00+02:00</published>
+  
+    <updated>2022-10-07T07:58:28+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-scatter-plot-sheet-music/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-scatter-plot-sheet-music/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+The chart was posted as part of the PowerBI Workout Wednesday 2022  challenge.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the Workout Wednesday link above.
+
+
+
+  Before you continue with the template, please be mindful that I don’t have any music background. The challenge was merely done to see what is possible with Deneb and text layers.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+I ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the hex-tile maps.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" rel="alternate" type="text/html" title="The one with the hex-tile maps." />
+    <published>2022-06-12T13:00:00+02:00</published>
+  
+    <updated>2022-10-07T07:58:28+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+While scrolling through my twitter timeline, I came across   Deborah Simmonds’s  redo of a Makeover Monday graph. This seemed like an interesting redo for Deneb &amp;amp; PowerBI, as Shad Frigui recently published a Hex-tile map done in Vega-lite.
+
+
+
+
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the  Makeover Monday website  for Week 3.You require the Excel file from the blog post by  Ke...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The one with the rank chart.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" rel="alternate" type="text/html" title="The one with the rank chart." />
+    <published>2022-06-12T08:00:00+02:00</published>
+  
+    <updated>2022-10-07T07:58:28+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-rank-chart/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+This was a Tableau redo of  Takafumi Shukuya’s work  as seen on Tableau Public.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+The dataset can be found on the  Makeover Monday website  for Week 5.
+
+
+
+&amp;nbsp;&amp;nbsp;Additional fields created
+
+No additional fields created
+
+
+
+&amp;nbsp;&amp;nbsp;Fields used
+
+  Year
+  Code (Country Code)
+  Country (Country Description)
+  Score
+  Indicator (Dimension field)
+
+
+
+
+&amp;nbsp;&amp;nbsp;Speci...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
