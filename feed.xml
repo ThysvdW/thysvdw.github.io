@@ -4,7 +4,7 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
-  <updated>2022-10-10T10:40:46+02:00</updated>
+  <updated>2022-10-13T23:21:00+02:00</updated>
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -17,6 +17,48 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The one with the calendar.</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-calendar/" rel="alternate" type="text/html" title="The one with the calendar." />
+    <published>2022-10-13T22:00:00+02:00</published>
+  
+    <updated>2022-10-13T22:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-calendar/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-calendar/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+I was recently asked to create a sample report for failed data transfers, with the request being really specific. It needs to be a calendar, that will show red for failures and green for the successes. As I already had a template for the calendar, it was actually pretty straightforward with Deneb.
+
+
+
+
+
+
+
+&amp;nbsp;&amp;nbsp;Dataset
+You can create your own dataset for this, using the following DAX quer...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -203,69 +245,6 @@ While scrolling through my twitter timeline, I came across   Deborah Simmonds�
 
 &amp;nbsp;&amp;nbsp;Dataset
 The dataset can be found on the  Makeover Monday website  for Week 3.You require the Excel file from the blog post by  Ke...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the rank chart.</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" rel="alternate" type="text/html" title="The one with the rank chart." />
-    <published>2022-06-12T08:00:00+02:00</published>
-  
-    <updated>2022-10-07T07:58:28+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/the-one-with-the-rank-chart/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-the-rank-chart/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-This was a Tableau redo of  Takafumi Shukuya’s work  as seen on Tableau Public.
-
-
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the  Makeover Monday website  for Week 5.
-
-
-
-&amp;nbsp;&amp;nbsp;Additional fields created
-
-No additional fields created
-
-
-
-&amp;nbsp;&amp;nbsp;Fields used
-
-  Year
-  Code (Country Code)
-  Country (Country Description)
-  Score
-  Indicator (Dimension field)
-
-
-
-
-&amp;nbsp;&amp;nbsp;Speci...
     </summary>
   
 
