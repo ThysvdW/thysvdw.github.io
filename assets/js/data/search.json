@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "The one with \"The Big Book of Dashboards\".",
+    "url": "/posts/the-one-with-the-bbod/",
+    "categories": "",
+    "tags": "deneb, powerbi, big book of dashboards",
+    "date": "2023-01-28 15:00:00 +0200",
+    
+
+
+
+
+
+    "snippet": "In 2022, I took on the challenge of recreating all the dashboards from the popular book “The Big Book of Dashboards”.  Through this process, I’ve gained a deeper understanding of Deneb, and I want to share this knowledge with others.To make this possible, I’m offering the templates for download at a minimal fee on my buymeacoffee  site. These templates include data sets, DAX formulas and Deneb files, allowing you to recreate the dashboards and improve your data visualization skills. Whether you’re a beginner looking to gain more experience or an advanced user looking to improve your skills, these files are a valuable resource.Previewing the Dashboards\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+  },
+  
+  {
     "title": "The one with the calendar.",
     "url": "/posts/the-one-with-the-calendar/",
     "categories": "",

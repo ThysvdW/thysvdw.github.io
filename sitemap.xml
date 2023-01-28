@@ -103,6 +103,24 @@
 <url>
 <loc>https://thysvdw.github.io/posts/the-one-with-the-calendar/</loc>
 <lastmod>2022-11-19T11:00:38+02:00</lastmod>
+<<<<<<< HEAD
+</url>
+<url>
+<loc>https://thysvdw.github.io/posts/the-one-with-the-bbod/</loc>
+<lastmod>2023-01-28T15:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://thysvdw.github.io/templates/</loc>
+<lastmod>2023-01-28T16:31:38+02:00</lastmod>
+</url>
+<url>
+<loc>https://thysvdw.github.io/tags/</loc>
+<lastmod>2023-01-28T16:31:38+02:00</lastmod>
+</url>
+<url>
+<loc>https://thysvdw.github.io/archives/</loc>
+<lastmod>2023-01-28T16:31:38+02:00</lastmod>
+=======
 </url>
 <url>
 <loc>https://thysvdw.github.io/templates/</loc>
@@ -115,6 +133,7 @@
 <url>
 <loc>https://thysvdw.github.io/archives/</loc>
 <lastmod>2022-11-19T11:01:14+02:00</lastmod>
+>>>>>>> 6e40110a2c4b4d92d159063711076753384fcc9b
 </url>
 <url>
 <loc>https://thysvdw.github.io/</loc>
@@ -241,6 +260,9 @@
 </url>
 <url>
 <loc>https://thysvdw.github.io/tags/calendar/</loc>
+</url>
+<url>
+<loc>https://thysvdw.github.io/tags/big-book-of-dashboards/</loc>
 </url>
 <url>
 <loc>https://thysvdw.github.io/categories/deneb/</loc>

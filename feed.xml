@@ -4,7 +4,11 @@
   <id>https://thysvdw.github.io/</id>
   <title>Thys</title>
   <subtitle>My journey with Deneb, a Power BI custom visual</subtitle>
+<<<<<<< HEAD
+  <updated>2023-01-28T16:31:38+02:00</updated>
+=======
   <updated>2022-11-19T11:01:14+02:00</updated>
+>>>>>>> 6e40110a2c4b4d92d159063711076753384fcc9b
   <author>
     <name>Thys</name>
     <uri>https://thysvdw.github.io/</uri>
@@ -13,10 +17,45 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="https://thysvdw.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
-  <rights> © 2022 Thys </rights>
+  <rights> © 2023 Thys </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The one with "The Big Book of Dashboards".</title>
+    <link href="https://thysvdw.github.io/posts/the-one-with-the-bbod/" rel="alternate" type="text/html" title="The one with "The Big Book of Dashboards"." />
+    <published>2023-01-28T15:00:00+02:00</published>
+  
+    <updated>2023-01-28T15:00:00+02:00</updated>
+  
+    <id>https://thysvdw.github.io/posts/the-one-with-the-bbod/</id>
+    <content src="https://thysvdw.github.io/posts/the-one-with-the-bbod/" />
+    <author>
+      <name>author1</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+In 2022, I took on the challenge of recreating all the dashboards from the popular book “The Big Book of Dashboards”.  Through this process, I’ve gained a deeper understanding of Deneb, and I want to share this knowledge with others.
+
+To make this possible, I’m offering the templates for download at a minimal fee on my buymeacoffee  site. These templates include data sets, DAX formulas and Den...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -199,52 +238,6 @@ The dataset can be found on the Workout Wednesday link above.
 &amp;nbsp;&amp;nbsp;Additional fields created
 
 I ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The one with the hex-tile maps.</title>
-    <link href="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" rel="alternate" type="text/html" title="The one with the hex-tile maps." />
-    <published>2022-06-12T13:00:00+02:00</published>
-  
-    <updated>2022-10-07T07:58:28+02:00</updated>
-  
-    <id>https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/</id>
-    <content src="https://thysvdw.github.io/posts/the-one-with-the-hex-tile-maps/" />
-    <author>
-      <name>author1</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-While scrolling through my twitter timeline, I came across   Deborah Simmonds’s  redo of a Makeover Monday graph. This seemed like an interesting redo for Deneb &amp;amp; PowerBI, as Shad Frigui recently published a Hex-tile map done in Vega-lite.
-
-
-
-
-
-
-
-
-
-
-
-&amp;nbsp;&amp;nbsp;Dataset
-The dataset can be found on the  Makeover Monday website  for Week 3.You require the Excel file from the blog post by  Ke...
     </summary>
   
 
